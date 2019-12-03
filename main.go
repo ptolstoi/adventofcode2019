@@ -6,6 +6,7 @@ import (
 	"os"
 
 	"github.com/ptolstoi/adventofcode2019/day1"
+	"github.com/ptolstoi/adventofcode2019/day2"
 )
 
 func main() {
@@ -15,6 +16,8 @@ func main() {
 	switch *day {
 	case 1:
 		day1.Main()
+	case 2:
+		day2.Main()
 	default:
 		fmt.Printf("Usage of %s:\n", os.Args[0])
 		flag.PrintDefaults()
