@@ -13,6 +13,7 @@ import (
 	"github.com/ptolstoi/adventofcode2019/day6"
 	"github.com/ptolstoi/adventofcode2019/day7"
 	"github.com/ptolstoi/adventofcode2019/day8"
+	"github.com/ptolstoi/adventofcode2019/day9"
 )
 
 func main() {
@@ -36,6 +37,8 @@ func main() {
 		day7.Main()
 	case 8:
 		day8.Main()
+	case 9:
+		day9.Main()
 	default:
 		fmt.Printf("Usage of %s:\n", os.Args[0])
 		flag.PrintDefaults()
